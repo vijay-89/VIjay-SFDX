@@ -6,6 +6,16 @@
     "versionName" : "Module1",
     "versionNumber" : "1.0.0.0"
   }, {
+    "path" : "Module1",
+    "default" : false,
+    "package" : "Test Unlock Package",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT",
+    "dependencies" : [ {
+      "package" : "Module1",
+      "versionNumber" : "1.0.0.0"
+    } ]
+  }, {
     "path" : "force-app",
     "default" : false
   } ],
@@ -14,6 +24,7 @@
   "sourceApiVersion" : "51.0",
   "packageAliases" : {
     "Module1" : "0Ho0K000000GmkASAS",
-    "Module1@1.0.0.0" : "04t0K000001ZXnJQAW"
+    "Module1@1.0.0.0" : "04t0K000001ZXnJQAW",
+    "Test Unlock Package" : "0Ho0K000000GmkFSAS"
   }
 }
